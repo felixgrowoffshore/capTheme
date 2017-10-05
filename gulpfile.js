@@ -23,7 +23,7 @@ gulp.task('theme', function() {
     .pipe(sass({
       compress: true
     }).on('error', sass.logError))
-    .pipe(minifyCSS())
+    // .pipe(minifyCSS())
     .pipe(gulp.dest('./css'));
 });
 

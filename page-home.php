@@ -9,7 +9,14 @@
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-
+			<div class="row">
+				<div class="col-md-6">
+					1
+				</div>
+				<div class="col-md-6">
+					2
+				</div>
+			</div>
 			<?php
 			echo 'home';
 			?>
