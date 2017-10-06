@@ -32,9 +32,9 @@
 				</div>
 				<div class="col-md-7">
 					<div class="row">
-						<div class="col-md-5"><img src="<?php echo IMAGEPATH .'artscouncil.png'?>"></div>
-						<div class="col-md-4"><img src="<?php echo IMAGEPATH .'policehistory.png'?>"></div>
-						<div class="col-md-3">
+						<div class="col-md-5 art"><img src="<?php echo IMAGEPATH .'artscouncil.png'?>"></div>
+						<div class="col-md-4 pol"><img src="<?php echo IMAGEPATH .'policehistory.png'?>"></div>
+						<div class="col-md-3 image">
 							<img src="<?php echo IMAGEPATH .'facebook.png'?>">
 							<img src="<?php echo IMAGEPATH .'twitter.png'?>">
 							<img src="<?php echo IMAGEPATH .'youtube.png'?>">

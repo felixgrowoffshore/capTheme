@@ -5823,6 +5823,8 @@ button.close {
       display: flex;
       justify-content: flex-end;
       align-items: center; }
+      .site-header > div .flex-center .collapse .menu-menu-1-container .navbar-right {
+        letter-spacing: 1px; }
 
 .site-footer {
   background: #444444;
@@ -5863,6 +5865,14 @@ button.close {
             text-decoration: none; }
             .site-footer .footer-links li ul li a:hover {
               color: #3575bb; }
+  .site-footer .col-md-7 .row .art {
+    padding-left: 125px; }
+  .site-footer .col-md-7 .row .pol {
+    left: 5px; }
+  .site-footer .col-md-7 .row .image {
+    display: inline-flex; }
+    .site-footer .col-md-7 .row .image img {
+      padding-right: 10px; }
 
 .navbar-nav li {
   border-right: 1px solid #3575bb; }
@@ -5872,3 +5882,9 @@ button.close {
       background: transparent; }
   .navbar-nav li:last-child {
     border-right: 0px; }
+
+.site-content .container {
+  padding: 0px; }
+
+.site-content p {
+  padding: 0px; }

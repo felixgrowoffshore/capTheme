@@ -51,6 +51,26 @@
       }
     }
   }
+  .col-md-7{
+
+    .row {
+      .art{
+             padding-left: 125px;
+      }
+      .pol{
+         left: 5px;  
+      }
+      .image{
+          display: inline-flex;
+          img{
+             padding-right: 10px;
+             
+          }
+       } 
+
+    }
+  }
+
 
   // to do add styles for footer images
 }

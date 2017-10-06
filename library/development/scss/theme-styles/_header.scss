@@ -4,8 +4,7 @@
   .navbar-collapse{
   }
 
-  .navbar-header{
-  }
+
   & > div{
     display: flex;
 
@@ -13,6 +12,18 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
+
+        .collapse{
+
+          .menu-menu-1-container
+
+          .navbar-right{
+            letter-spacing: 1px;
+          }
+        }
+
     }
+
+
   }
 }
