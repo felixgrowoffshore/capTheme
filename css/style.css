@@ -5866,9 +5866,10 @@ button.close {
             .site-footer .footer-links li ul li a:hover {
               color: #3575bb; }
   .site-footer .col-md-7 .row .art {
-    padding-left: 125px; }
+    left: 110px; }
   .site-footer .col-md-7 .row .pol {
-    left: 5px; }
+    left: 5px;
+    padding-bottom: 10px; }
   .site-footer .col-md-7 .row .image {
     display: inline-flex; }
     .site-footer .col-md-7 .row .image img {
@@ -5888,3 +5889,27 @@ button.close {
 
 .site-content p {
   padding: 0px; }
+
+.site-content .container ul {
+  margin-bottom: 30px;
+  border-bottom: solid 4px #1c74bb;
+  border-radius: 0px;
+  right: 3px; }
+  .site-content .container ul li a {
+    border-radius: 0px;
+    right: 1px;
+    margin-bottom: 1px; }
+  .site-content .container ul .docs {
+    padding-right: 25px; }
+    .site-content .container ul .docs a {
+      background-color: #1c74bb;
+      color: #fff; }
+  .site-content .container ul .link a {
+    background-color: #ccc;
+    color: #1c74bb; }
+
+.site-content .container .container .row p {
+  text-align: justify; }
+
+.site-content .container .row {
+  margin-bottom: 100px; }

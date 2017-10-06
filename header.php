@@ -25,7 +25,7 @@
 	<div class="container">
 		<header id="masthead" class="site-header">
 				<div class="row">
-					<div class="col-md-4 col-sm-7 col-xs-8">
+					<div class="col-md-4 col-sm-7 col-xs-8 logo">
 						<div class="site-branding">
 							<?php
 							the_custom_logo();

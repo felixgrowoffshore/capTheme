@@ -12,12 +12,51 @@
 	.container{
 
 			ul{
+				margin-bottom: 30px;
+				border-bottom: solid 4px #1c74bb;
+				border-radius: 0px;
+				right: 3px;
+
 				li{
 					a{
+						border-radius: 0px;
+						right: 1px;
+						margin-bottom: 1px;
+					}
+				}
+				.docs{
+					    padding-right: 25px;
+					a{
+						background-color: #1c74bb;
+						color: #fff;
 						
+						
+					}
+				}
+				.link{
+					a{
+						background-color: #ccc;
+						color: #1c74bb;
+					}
+				}
+			}
+			.container{
+				.row{
+					div{
+
+					}
+					p{
+						text-align: justify;
 					}
 				}
 			}
 		
 	}
+
+	.container{
+		.row{
+			margin-bottom: 100px;
+		}
+	}
 }
+
