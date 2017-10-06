@@ -11,20 +11,38 @@
 
 ?>
 
-	</div><!-- #content -->
+		</div><!-- #content -->
+	</div><!-- #page -->
 
 	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'cap-theme' ) ); ?>"><?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'cap-theme' ), 'WordPress' );
-			?></a>
-			<span class="sep"> | </span>
-			<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'cap-theme' ), 'cap-theme', '<a href="http://growoffshore.com">growoffshore</a>' );
-			?>
-		</div><!-- .site-info -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<ul class="footer-links">
+						<li>Contact Information</li>
+						<li>Copyright notice</li>
+						<li>
+							<ul>
+								<li><a href="#">Footer Links</a></li>
+								<li><a href="#">Footer Links</a></li>
+								<li><a href="#">Footer Links</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="col-md-7">
+					<div class="row">
+						<div class="col-md-5"><img src="<?php echo IMAGEPATH .'artscouncil.png'?>"></div>
+						<div class="col-md-4"><img src="<?php echo IMAGEPATH .'policehistory.png'?>"></div>
+						<div class="col-md-3">
+							<img src="<?php echo IMAGEPATH .'facebook.png'?>">
+							<img src="<?php echo IMAGEPATH .'twitter.png'?>">
+							<img src="<?php echo IMAGEPATH .'youtube.png'?>">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 

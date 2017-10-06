@@ -1,0 +1,15 @@
+.navbar-nav{
+  li{
+    a{
+      padding : 0 10px;
+      &:hover{
+        background: transparent;
+      }
+    }
+    border-right : 1px solid $brand-primary;
+
+    &:last-child{
+      border-right : 0px;
+    }
+  }
+}

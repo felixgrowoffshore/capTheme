@@ -1,0 +1,56 @@
+.site-footer{
+  background: #444444;
+  color : #fff;
+  padding : 40px 0;
+  .footer-links{
+    padding : 0;
+    li{
+      list-style: none;
+      padding-bottom : 10px;
+      ul{
+        padding : 0;
+        li{
+          list-style: none;
+          display: inline;
+
+          &::after{
+            content: '';
+            width: 1px;
+            height: 11px;
+            background: #fff;
+            display: inline-block;
+            margin-right: 8px;
+            margin-left: 8px;
+            position: relative;
+            bottom: -1px;
+          }
+
+          &:last-child{
+            &::after{
+              content: '';
+              width: 0px;
+              height: 11px;
+              background: #fff;
+              display: none;
+              margin-right: 0px;
+              margin-left: 0px;
+              position: relative;
+              bottom: -1px;
+            }
+          }
+
+          a{
+            color : #fff;
+            text-decoration: none;
+
+            &:hover{
+              color : $brand-primary;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // to do add styles for footer images
+}

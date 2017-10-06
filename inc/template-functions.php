@@ -30,3 +30,10 @@ function cap_theme_pingback_header() {
 	}
 }
 add_action( 'wp_head', 'cap_theme_pingback_header' );
+
+
+// constant links
+DEFINE('THEMEPATH', get_stylesheet_directory().'/');
+DEFINE('IMAGEPATH', get_stylesheet_directory_uri().'/images/');
+DEFINE('JAVASCRIPTPATH', get_stylesheet_directory_uri().'/js/');
+DEFINE('TEMPLATEPATH', get_stylesheet_directory_uri().'/template-parts/');
