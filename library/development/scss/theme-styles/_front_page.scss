@@ -1,0 +1,39 @@
+.page-template-page-home{
+
+  .images_map_bldg{
+    padding : 20px 0;
+
+    .image_wrap_hover{
+      position: relative;
+      img{
+        width : 100%;
+      }
+      div{
+        position: absolute;
+        bottom: 0;
+        background : rgba(255,255,255,.7);
+        width: 100%;
+        padding: 20px;
+      }
+    }
+  }
+
+  .featured_image{
+    margin-bottom : 80px;
+    @media (max-width: $screen-md-min) {
+      margin-bottom : 40px;
+    }
+    @media (max-width: $screen-sm-min) {
+      margin-bottom : 20px;
+    }
+  }
+}
+
+
+// about
+.home-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding : 40px 0;
+}

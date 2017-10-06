@@ -57,7 +57,12 @@
 
 // theme styles
 @import "theme-styles/header";
+
 @import "theme-styles/footer";
 @import "theme-styles/nav";
 @import "theme-styles/grid_block";
+@import "theme-styles/featured";
+@import "theme-styles/news_list";
 
+// theme front
+@import "theme-styles/front_page";
