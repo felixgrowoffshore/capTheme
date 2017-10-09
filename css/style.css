@@ -6066,6 +6066,29 @@ button.close {
       .search-form .advance-search a .filter-caret.open:after {
         transform: rotate(-135deg); }
 
+.results h3 {
+  color: #333333; }
+
+.results ul {
+  margin: 0;
+  padding: 0; }
+  .results ul li {
+    list-style: none;
+    margin-bottom: 10px; }
+    .results ul li a {
+      position: relative; }
+      .results ul li a span {
+        position: absolute;
+        top: -4px;
+        right: -26px;
+        background: #3575bb;
+        color: #fff;
+        font-size: 9px;
+        display: inline-block;
+        padding: 4px 2px;
+        border-radius: 20px;
+        font-weight: 200; }
+
 .page-template-page-home .images_map_bldg {
   padding: 20px 0; }
   .page-template-page-home .images_map_bldg .image_wrap_hover {

@@ -101,3 +101,32 @@ $spacer : 30px;
     }
   }
 }
+
+.results{
+  h3{
+    color : $gray-dark;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    li{
+      list-style: none;
+      margin-bottom : 10px;
+      a {
+        position: relative;
+        span{
+          position: absolute;
+          top: -4px;
+          right: -26px;
+          background: #3575bb;
+          color: #fff;
+          font-size: 9px;
+          display: inline-block;
+          padding: 4px 2px;
+          border-radius: 20px;
+          font-weight: 200;
+        }
+      }
+    }
+  }
+}
