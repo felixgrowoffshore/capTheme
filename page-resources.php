@@ -1,18 +1,36 @@
 <?php
 /**
- * Template Name: Resources
+ * Template Name: Resources page
  *
  */
 
 ?>
 <?php get_header(); ?>
-	
-	<div class="container"><h1><?php echo get_the_title(); ?></h1><p class="col-md-9">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p></div>
-	<?php
-	
-	get_template_part( 'template-parts/_grid_block' );
 
-	?>
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main ">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<?php
+						while ( have_posts() ) : the_post();
+
+							get_template_part( 'template-parts/resources', 'page' );
+
+							// If comments are open or we have at least one comment, load up the comment template.
+							if ( comments_open() || get_comments_number() ) :
+								comments_template();
+							endif;
+
+						endwhile; // End of the loop.
+						?>
+					</div>
+				</div>
+			</div>
+		</main><!-- #main -->
+	</div><!-- #primary -->
+
+
 
 <?php
 get_sidebar();
