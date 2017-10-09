@@ -26,6 +26,8 @@
     border-radius: 0;
     -webkit-appearance: none !important;
   }
+
+
 }
 
 .home-feat-wrap{
@@ -37,5 +39,31 @@
     margin-left: auto;
     margin-right: auto;
     top:43%;
+  }
+}
+
+$spacer : 30px;
+
+.search-form{
+  .controls{
+    .btn-primary{
+      padding : 10px 60px;
+    }
+  }
+  label{
+    font-weight: 200;
+  }
+  h3{
+    color: $gray-dark;
+    font-weight: 200;
+    margin : $spacer 0 15px;
+  }
+
+  .block_space{
+    padding-bottom: $spacer;
+  }
+
+  .advance-search{
+    padding : 20px 0;
   }
 }

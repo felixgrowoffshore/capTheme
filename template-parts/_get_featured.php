@@ -7,5 +7,5 @@
 <?php endif; ?>
 
 <?php if(is_front_page()) : ?>
-  <?php get_template_part( 'template-parts/_search_template' ); ?>
+  <?php get_template_part( 'template-parts/search' ); ?>
 <?php endif; ?>

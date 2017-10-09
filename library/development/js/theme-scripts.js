@@ -1,1 +1,3 @@
-$("#myModal").modal()
+jQuery(document).ready(function($){
+  $('select').niceSelect();
+})
