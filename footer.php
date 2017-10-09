@@ -35,9 +35,9 @@
 						<div class="col-md-5 art"><img src="<?php echo IMAGEPATH .'artscouncil.png'?>"></div>
 						<div class="col-md-4 pol"><img src="<?php echo IMAGEPATH .'policehistory.png'?>"></div>
 						<div class="col-md-3 image">
-							<img src="<?php echo IMAGEPATH .'facebook.png'?>">
-							<img src="<?php echo IMAGEPATH .'twitter.png'?>">
-							<img src="<?php echo IMAGEPATH .'youtube.png'?>">
+							<a href=""><img src="<?php echo IMAGEPATH .'facebook.png'?>"></a>
+							<a href=""><img src="<?php echo IMAGEPATH .'twitter.png'?>"></a>
+							<a href=""><img src="<?php echo IMAGEPATH .'youtube.png'?>"></a>
 						</div>
 					</div>
 				</div>
