@@ -9,7 +9,9 @@
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-			<?php get_template_part( 'template-parts/_get_featured' ); ?>
+			<div class="home-feat-wrap">
+				<?php get_template_part( 'template-parts/_get_featured' ); ?>
+			</div>
 			<div class="container images_map_bldg">
 				<div class="row">
 					<div class="col-md-6">
@@ -37,10 +39,12 @@
 
 			<?php get_template_part( 'template-parts/_get_children' ); ?>
 
-			
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+
+
 
 <?php
 get_sidebar();

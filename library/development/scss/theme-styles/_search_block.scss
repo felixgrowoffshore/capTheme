@@ -1,0 +1,41 @@
+.search_block{
+  background: #444;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+  flex-direction: column;
+  padding: 40px;
+  text-align: center;
+  h2{
+    color: #fff;
+  }
+  p{
+    a{
+      color : #fff;
+      font-style: italic;
+      text-decoration: none;
+    }
+  }
+  button{
+    width : 100%;
+    border-radius: 0;
+  }
+  input, select{
+    border-radius: 0;
+    -webkit-appearance: none !important;
+  }
+}
+
+.home-feat-wrap{
+  position: relative;
+  .search_block{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top:43%;
+  }
+}

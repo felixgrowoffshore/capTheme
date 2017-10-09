@@ -5,3 +5,7 @@
       <img src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php echo $alt; ?>" />
     </div>
 <?php endif; ?>
+
+<?php if(is_front_page()) : ?>
+  <?php get_template_part( 'template-parts/_search_template' ); ?>
+<?php endif; ?>
