@@ -7,9 +7,43 @@
 }
 
 img{
-  width : 100%;
+  max-width : 100%;
+  height : auto;
 }
 
 .add_space{
   padding-bottom : 30px;
+}
+
+// wysywyg generated
+.alignright{
+  float: right;
+  padding: 15px;
+  width: auto;
+}
+
+.entry-content{
+  h2,h3,h4,h5,h6{
+    color: $gray-dark;
+  }
+
+  blockquote{
+    border-left: 0px;
+    border-top : 2px solid $brand-primary;
+    border-bottom : 2px solid $brand-primary;
+    color : $brand-primary;
+    font-size: 20px;
+    p{
+      &:last-child{
+        color : red;
+      }
+    }
+    .author{
+      color: $gray-dark;
+      font-size: 16px;
+    }
+  }
+  ul,ol{
+    padding-left : 20px;
+  }
 }

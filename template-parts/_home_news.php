@@ -9,7 +9,7 @@ $news_events = get_posts($q);
 
 if($news_events) : ?>
 
-<div class="home-news news_events">
+<div class="home-news news_events_home">
   <div class="container">
     <h2>News and events</h2>
     <div class="row">
