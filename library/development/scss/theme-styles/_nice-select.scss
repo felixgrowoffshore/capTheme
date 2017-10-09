@@ -1,5 +1,5 @@
 // Default variables
-$font_size: 14px !default;
+$font_size: 16px !default;
 $font_size_small: 12px !default;
 
 $input_border_radius: 5px !default;
@@ -48,20 +48,20 @@ $arrow_color: $gray !default;
   }
   // Arrow
   &:after {
-    border-bottom: 2px solid $arrow_color;
-    border-right: 2px solid $arrow_color;
+    border-bottom: 2px solid $brand-primary;
+    border-right: 2px solid $brand-primary;
     content: '';
     display: block;
-    height: 5px;
+    height: 10px;
     margin-top: -4px;
     pointer-events: none;
     position: absolute;
     right: 12px;
-    top: 50%;
+    top: 44%;
     transform-origin: 66% 66%;
     transform: rotate(45deg);
     transition: all 0.15s ease-in-out;
-    width: 5px;
+    width: 10px;
   }
 
   &.open {

@@ -12,8 +12,13 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-md-12">
-      <p class="advance-search"><a href="#" data-toggle="collapse" data-target="#more_search_filter">Advance Search</a></p>
+    <div class="col-xs-12">
+      <p class="advance-search">
+        <a href="#" data-toggle="collapse" data-target="#more_search_filter">
+          <span class="filter-txt">More</span> search filters
+          <span class="filter-caret"></span>
+        </a>
+      </p>
     </div>
   </div>
 
