@@ -65,5 +65,68 @@ $spacer : 30px;
 
   .advance-search{
     padding : 20px 0;
+    a{
+      position: relative;
+      text-decoration: none;
+      // Arrow
+      .filter-caret{
+        position: relative;
+        display: inline-block;
+        padding: 10px;
+        margin-left:10px;
+        &:after {
+          border-bottom: 2px solid $brand-primary;
+          border-right: 2px solid $brand-primary;
+          content: '';
+          display: block;
+          height: 10px;
+          margin-top: -2px;
+          pointer-events: none;
+          position: absolute;
+          // right: -22px;
+          left: 0px;
+          top: 44%;
+          transform-origin: 66% 66%;
+          transform: rotate(45deg);
+          transition: all 0.15s ease-in-out;
+          width: 10px;
+        }
+        &.open{
+          &:after {
+            transform: rotate(-135deg);
+          }
+        }
+      }
+
+    }
+  }
+}
+
+.results{
+  h3{
+    color : $gray-dark;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    li{
+      list-style: none;
+      margin-bottom : 10px;
+      a {
+        position: relative;
+        span{
+          position: absolute;
+          top: -4px;
+          right: -26px;
+          background: #3575bb;
+          color: #fff;
+          font-size: 9px;
+          display: inline-block;
+          padding: 4px 2px;
+          border-radius: 20px;
+          font-weight: 200;
+        }
+      }
+    }
   }
 }

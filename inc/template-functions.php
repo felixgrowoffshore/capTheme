@@ -64,6 +64,20 @@ function news_events() {
   register_post_type( 'news_events' , $args );
 }
 
+function getExcerpt($str, $startPos=0, $maxLength=100) {
+	// print_r($str);
+	if(strlen($str) > $maxLength) {
+		$excerpt   = substr($str, $startPos, $maxLength-3);
+		$lastSpace = strrpos($excerpt, ' ');
+		$excerpt   = substr($excerpt, 0, $lastSpace);
+		$excerpt  .= '...';
+	} else {
+		$excerpt = $str;
+	}
+	return "<p>".$excerpt."</p>";
+}
+
+
 // constant links
 DEFINE('THEMEPATH', get_stylesheet_directory().'/');
 DEFINE('IMAGEPATH', get_stylesheet_directory_uri().'/images/');
