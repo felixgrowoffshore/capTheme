@@ -1,7 +1,8 @@
 .content-area{
 	
 	.site-main{
-		.container{
+		.collection-content{
+				    
 			.row{
 				.cap{
 				text-align: right;
@@ -12,6 +13,55 @@
 			}
 			}
 		}
+		.container{
+			.row{
+				.infos{
+					padding: 0px;
+					p{
+						text-align: justify;
+
+
+						i{
+							color: blue;
+
+						}
+					}
+				}
+
+				.collection-image{
+					right: 40px;
+    				text-align: right;
+    				margin-bottom: 30px;
+
+				}
+
+				.information{
+						padding: 0px;
+						
+						.bold{
+							font-weight: bold;
+						}
+
+						.spacing{
+							padding-bottom: 20px;
+						}
+
+						.list{
+							list-style: none;
+							padding: 0px;
+						}
+				}
+
+				.image-2{
+					    text-align: right;
+					    right: 40px;
+					    padding-right: 15px;
+				}
+
+
+				}
+				
+			}
+		}
 	}
 
-}

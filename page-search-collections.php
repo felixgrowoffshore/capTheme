@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Search Collections
+ * Template Name: Organization
  *
  */
 
