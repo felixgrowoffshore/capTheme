@@ -5884,12 +5884,13 @@ button.close {
 .site-footer {
   background: #444444;
   color: #fff;
-  padding: 40px 0; }
+  padding: 40px 0;
+  font-size: 14px; }
   .site-footer .footer-links {
     padding: 0; }
     .site-footer .footer-links li {
       list-style: none;
-      padding-bottom: 10px; }
+      padding-bottom: 5px; }
       .site-footer .footer-links li ul {
         padding: 0; }
         .site-footer .footer-links li ul li {
