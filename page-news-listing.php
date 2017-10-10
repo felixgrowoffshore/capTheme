@@ -8,7 +8,7 @@
 <?php get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main bg_light_gray">
+		<main id="main" class="site-main">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">

@@ -2,12 +2,13 @@
   background: #444444;
   color : #fff;
   padding : 40px 0;
+  font-size: 14px;
   // margin-top : 40px;
   .footer-links{
     padding : 0;
     li{
       list-style: none;
-      padding-bottom : 10px;
+      padding-bottom : 5px;
       ul{
         padding : 0;
         li{
@@ -57,7 +58,7 @@
     .row {
       .art{
             padding: 0px;
-            left: 85px;     
+            left: 85px;
       }
       .pol{
 
@@ -78,5 +79,3 @@
 
   // to do add styles for footer images
 }
-
-

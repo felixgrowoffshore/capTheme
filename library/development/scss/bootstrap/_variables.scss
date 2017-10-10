@@ -455,11 +455,11 @@ $nav-pills-active-link-hover-color:         $component-active-color !default;
 //##
 
 $pagination-color:                     $link-color !default;
-$pagination-bg:                        #fff !default;
-$pagination-border:                    #ddd !default;
+$pagination-bg:                        $gray-light !default;
+$pagination-border:                    $gray-light !default;
 
-$pagination-hover-color:               $link-hover-color !default;
-$pagination-hover-bg:                  $gray-lighter !default;
+$pagination-hover-color:               #fff !default;
+$pagination-hover-bg:                  $brand-primary !default;
 $pagination-hover-border:              #ddd !default;
 
 $pagination-active-color:              #fff !default;
@@ -794,16 +794,16 @@ $badge-border-radius:         10px !default;
 //
 //##
 
-$breadcrumb-padding-vertical:   8px !default;
-$breadcrumb-padding-horizontal: 15px !default;
+$breadcrumb-padding-vertical:   15px !default;
+$breadcrumb-padding-horizontal: 5px !default;
 //** Breadcrumb background color
-$breadcrumb-bg:                 #f5f5f5 !default;
+$breadcrumb-bg:                 transparent !default;
 //** Breadcrumb text color
-$breadcrumb-color:              #ccc !default;
+$breadcrumb-color:              $brand-primary !default;
 //** Text color of current page in the breadcrumb
 $breadcrumb-active-color:       $gray-light !default;
 //** Textual separator for between breadcrumb elements
-$breadcrumb-separator:          "/" !default;
+$breadcrumb-separator:          ">" !default;
 
 
 //== Carousel

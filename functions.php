@@ -117,6 +117,7 @@ add_action( 'widgets_init', 'cap_theme_widgets_init' );
  * Enqueue scripts and styles.
  */
 function cap_theme_scripts() {
+	wp_enqueue_style( 'cap-theme-fontawesome', get_template_directory_uri().'/css/font-awesome.css' );
 	wp_enqueue_style( 'cap-theme-style-min', get_template_directory_uri().'/css/style.css' );
 	wp_enqueue_style( 'cap-theme-style', get_stylesheet_uri() );
 
