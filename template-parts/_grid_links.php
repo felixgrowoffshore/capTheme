@@ -1,37 +1,32 @@
+<?php
+$q = array(
+    'post_type'      => 'resources_links',
+    'posts_per_page' => -1,
+    'post_status'    => 'publish',
+);
+
+$resources_links = get_posts($q);
+$categories = get_categories();
+?>
 <div class="container for-link">
   <div class="row">
-    <div class="col-md-6 col-sm-12">
-      <h3>Link category title</h3>
-        <ul class="content-links">
-            <li><a href="">Curabitur vitae finibus massa</a></li>
-            <li><a href="">Ac convallis felis</a></li>
-            <li><a href="">Praesent efficitur</a></li>
-            <li><a href="">Ex a tempus porta</a></li>
-            <li><a href="">Eros lorem rutrum eros</a></li>
-            <li><a href="">A maximus ante nisl</a></li>
-            <li><a href="">Vitae Augue</a></li>
-            <li><a href="">Sed turpis magna</a></li>
-            <li><a href="">Pellentesque eget efficitur</a></li>
-            <li><a href="">Fermentum vitae lingula</a></li>
-            <li><a href="">Vivamus sollicitudin</a></li>
-            <li><a href="">Volutpat sem</a></li>
-            <li><a href="">Et tincidunt augue hendrerit vitae</a></li>
-        </ul>
-    </div>
-    <div class="col-md-6 col-sm-12">
-      <h3>Link category title</h3>
-       <ul class="content-links">
-            <li><a href="">Pellentesque eget efficitur</a></li>
-            <li><a href="">Fermentum vitae ligula</a></li>
-            <li><a href="">Vivamus sollicitudin</a></li>
-            <li><a href="">Volupat sem</a></li>
-            <li><a href="">Et tincidunt augue hendrerit vitae</a></li>
-            <li><a href="">Curabitur vitae finibus massa</a></li>
-            <li><a href="">Ac convallis felis</a></li>
-            <li><a href="">Praesent efficitur</a></li>
-        </ul>
-    </div>
+  <?php
+  foreach ($categories as $key => $category) {
+    $links = get_resources_links($category->slug);
 
+    if($links){
+      echo '<div class="col-md-6 col-sm-12">';
+      echo '<h3>'.$category->name.'</h3>';
+      echo '<ul class="content-links">';
+      foreach ($links as $key => $link) {
+        $link_ref = get_field('resources_link',$link->ID);
+        echo '<li><a href="'.$link_ref.'" target="_blank">'.$link->post_title.'</a></li>';
+      }
+      echo '</ul>';
+      echo '</div>';
+    }
 
+  }
+  ?>
   </div>
 </div>

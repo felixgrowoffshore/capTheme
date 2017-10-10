@@ -18,7 +18,8 @@
 
 	<div class="entry-content navs">
 		<?php
-			the_content();?>
+			the_content();
+			?>
 
       <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#documents">Documents</a></li>

@@ -1,39 +1,28 @@
 .entry-content{
-	.navs{
-		padding: 0px;
-	}
-	
-}
+	.resource-content{
 
-.resource-content{
-
+		ul{
+			font-size: 12px;
+			padding: 0;
+			li{
+				padding: 0;
+				list-style: none;
+				display: inline-block;
+				&:after{
+					content: '|';
+					padding : 5px;
+				}
+				&:last-child{
+					&:after{
+						content: '';
+						padding : 0px;
+					}
+				}
+			}
+		}
 		p{
-		text-align: justify;
-		}	
+			margin-bottom: 0;
+		}
+	}
 
- @media (max-width: $screen-xs) {
-   	
-   	width: auto;
-   	height: auto;
-   	
-    p{
-    	text-align: center;
-    }
-
-    footer{
-    width: auto;
-   	height: auto;
-   }
- 
-  }
-  	
-		
 }
-
-
-
-
-
-
-
-

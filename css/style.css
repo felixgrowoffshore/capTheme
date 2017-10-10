@@ -5943,21 +5943,22 @@ button.close {
   .navbar-nav li.current_page_item a {
     color: #575757; }
 
-.entry-content .navs {
-  padding: 0px; }
+.entry-content .resource-content ul {
+  font-size: 12px;
+  padding: 0; }
+  .entry-content .resource-content ul li {
+    padding: 0;
+    list-style: none;
+    display: inline-block; }
+    .entry-content .resource-content ul li:after {
+      content: '|';
+      padding: 5px; }
+    .entry-content .resource-content ul li:last-child:after {
+      content: '';
+      padding: 0px; }
 
-.resource-content p {
-  text-align: justify; }
-
-@media (max-width: 480px) {
-  .resource-content {
-    width: auto;
-    height: auto; }
-    .resource-content p {
-      text-align: center; }
-    .resource-content footer {
-      width: auto;
-      height: auto; } }
+.entry-content .resource-content p {
+  margin-bottom: 0; }
 
 .featured_image {
   height: 445px; }
