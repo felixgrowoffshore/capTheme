@@ -6288,9 +6288,18 @@ img {
     line-height: 40px;
     font-size: 15px; }
 
-.content-area .site-main .container .row .cap {
+.content-area .site-main .collection-content .row .cap {
   text-align: right;
   float: right;
   right: 40px;
   padding: 0px;
   padding-top: 37px; }
+
+.content-area .site-main .container .row .infos {
+  padding: 0px; }
+  .content-area .site-main .container .row .infos p {
+    text-align: justify; }
+
+.content-area .site-main .container .row .collection-image {
+  right: 40px;
+  text-align: right; }
