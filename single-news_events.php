@@ -12,8 +12,10 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
 			<div class="container">
+				<?php get_template_part( 'template-parts/_get_breadcrumb' ); ?>
 				<div class="row">
 					<div class="col-sm-12">
+
 						<?php
 						while ( have_posts() ) : the_post();
 
