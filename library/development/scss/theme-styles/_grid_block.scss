@@ -1,6 +1,39 @@
+.entry-content{
+	.navs{
+		padding: 0px;
+	}
+	
+}
+
 .resource-content{
 
-	p{
-		text-align: left;
-	}
+		p{
+		text-align: justify;
+		}	
+
+ @media (max-width: $screen-xs) {
+   	
+   	width: auto;
+   	height: auto;
+   	
+    p{
+    	text-align: center;
+    }
+
+    footer{
+    width: auto;
+   	height: auto;
+   }
+ 
+  }
+  	
+		
 }
+
+
+
+
+
+
+
+
