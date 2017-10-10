@@ -52,16 +52,17 @@
       }
     }
   }
-  .col-md-7{
+  .container{
 
     .row {
       .art{
-                 
+            padding: 0px;
+            left: 85px;     
       }
       .pol{
 
          padding-bottom: 10px;
-         left: 5px;
+         right: 10px;
       }
       .image{
           display: inline-flex;
