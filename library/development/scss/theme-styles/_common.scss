@@ -54,3 +54,20 @@ img{
     padding-left : 20px;
   }
 }
+
+.bullet_cap{
+  position: relative;
+  span{
+    position: absolute;
+    top: -4px;
+    right: -31px;
+    background: #3575bb;
+    color: #fff;
+    font-size: 9px;
+    display: inline-block;
+    padding: 6px 4px;
+    border-radius: 20px;
+    font-weight: 200;
+    font-family: $font-family-arvo;
+  }
+}

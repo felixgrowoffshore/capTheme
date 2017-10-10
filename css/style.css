@@ -6072,19 +6072,6 @@ button.close {
   .results ul li {
     list-style: none;
     margin-bottom: 10px; }
-    .results ul li a {
-      position: relative; }
-      .results ul li a span {
-        position: absolute;
-        top: -4px;
-        right: -26px;
-        background: #3575bb;
-        color: #fff;
-        font-size: 9px;
-        display: inline-block;
-        padding: 4px 2px;
-        border-radius: 20px;
-        font-weight: 200; }
 
 .page-template-page-home .images_map_bldg {
   padding: 20px 0; }
@@ -6279,6 +6266,21 @@ img {
 
 .entry-content ul, .entry-content ol {
   padding-left: 20px; }
+
+.bullet_cap, .results ul li a {
+  position: relative; }
+  .bullet_cap span, .results ul li a span {
+    position: absolute;
+    top: -4px;
+    right: -31px;
+    background: #3575bb;
+    color: #fff;
+    font-size: 9px;
+    display: inline-block;
+    padding: 6px 4px;
+    border-radius: 20px;
+    font-weight: 200;
+    font-family: "arvo", "Helvetica Neue", Helvetica, Arial, sans-serif; }
 
 .entry-content .nav-tabs {
   padding: 0px; }
