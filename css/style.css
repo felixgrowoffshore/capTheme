@@ -6221,17 +6221,6 @@ button.close {
 .bg_light_gray {
   background: #e9e9e9; }
 
-<<<<<<< HEAD
-.entry-content .tab-content .for-link {
-  padding: 0px; }
-  .entry-content .tab-content .for-link h3 {
-    color: #333333; }
-  .entry-content .tab-content .for-link .content-links {
-    list-style: none;
-    padding: 0px;
-    line-height: 40px;
-    font-size: 15px; }
-=======
 img {
   max-width: 100%;
   height: auto; }
@@ -6269,4 +6258,13 @@ img {
 
 .entry-content ul, .entry-content ol {
   padding-left: 20px; }
->>>>>>> 910db09ea0505c8123c2524852d127786470d841
+
+.entry-content .tab-content .for-link {
+  padding: 0px; }
+  .entry-content .tab-content .for-link h3 {
+    color: #333333; }
+  .entry-content .tab-content .for-link .content-links {
+    list-style: none;
+    padding: 0px;
+    line-height: 40px;
+    font-size: 15px; }
