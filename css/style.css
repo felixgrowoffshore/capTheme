@@ -6303,7 +6303,25 @@ img {
   padding: 0px; }
   .content-area .site-main .container .row .infos p {
     text-align: justify; }
+    .content-area .site-main .container .row .infos p i {
+      color: blue; }
 
 .content-area .site-main .container .row .collection-image {
   right: 40px;
-  text-align: right; }
+  text-align: right;
+  margin-bottom: 30px; }
+
+.content-area .site-main .container .row .information {
+  padding: 0px; }
+  .content-area .site-main .container .row .information .bold {
+    font-weight: bold; }
+  .content-area .site-main .container .row .information .spacing {
+    padding-bottom: 20px; }
+  .content-area .site-main .container .row .information .list {
+    list-style: none;
+    padding: 0px; }
+
+.content-area .site-main .container .row .image-2 {
+  text-align: right;
+  right: 40px;
+  padding-right: 15px; }
