@@ -11,5 +11,10 @@
     &:last-child{
       border-right : 0px;
     }
+    &.current_page_item{
+      a{
+        color : $gray;
+      }
+    }
   }
 }

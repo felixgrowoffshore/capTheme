@@ -1,33 +1,35 @@
-
-.site-header{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  .navbar-collapse{
-  }
-
-
-  & > div{
-    display: flex;
-
-    .flex-center{
-      display: flex;
-      justify-content: flex-end;
-      align-items: center;
-
-        .collapse{
-          .navbar-right{
-            letter-spacing: 1px;
-
-            a{
-              &:hover{
-                color: $brand-primary;
-              }
-            }
-          }
-        }
-
+.header_wrap{
+  border-bottom : 1px solid $gray-light;
+  .site-header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .navbar-collapse{
     }
 
 
+    & > div{
+      display: flex;
+
+      .flex-center{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+          .collapse{
+            .navbar-right{
+              letter-spacing: 1px;
+
+              a{
+                &:hover{
+                  color: $brand-primary;
+                }
+              }
+            }
+          }
+
+      }
+
+
+    }
   }
 }

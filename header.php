@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<div class="container">
+	<div class="header_wrap"><div class="container">
 		<header id="masthead" class="site-header">
 				<div class="row">
 					<div class="col-md-4 col-sm-7 col-xs-8 logo">
@@ -53,5 +53,5 @@
 					</div>
 				</div>
 			</header><!-- #masthead -->
-		</div>
+		</div></div>
 	<div id="content" class="">
