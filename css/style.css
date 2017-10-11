@@ -5996,7 +5996,7 @@ button.close {
   margin: 0 auto;
   position: relative;
   flex-direction: column;
-  padding: 40px;
+  padding: 20px 40px;
   text-align: center; }
   .search_block h2 {
     color: #fff; }
