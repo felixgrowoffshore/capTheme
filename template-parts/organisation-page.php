@@ -15,21 +15,22 @@
 					<p>Organisation: Museum</p>
 					<p>Collection: Police, Court</p>
 					<p>Dates: 1700 - 1950</p>
+					<p class="spacing"><span>CaP </span> CaP Member</p>
 
 					<p>A number of interesting displays of photographs and equipment and show the history of policing. Our resident sergeant is always on duty in the station watching over the prisoners</p>
 
 					<p> <i class="fa fa-map-marker"></i> 63 Long St, Tetbury GL8 8AA</p>
 					<p> <i class="fa fa-envelope"></i> Contact: John Silvester</p>
-					<p>Any publications or other relevant material about the collection / history of the organisation?</p>
-					<p>Yes</p>
+					<p class="bold">Any publications or other relevant material about the collection / history of the organisation?</p>
+					<p class="spacing">Yes</p>
 
-					<p>Historic Buildings</p>
-					<p>Yes - we have an old courtroom</p>
+					<p class="bold">Historic Buildings?</p>
+					<p class="spacing">Yes - we have an old courtroom</p>
 
-					<p>Who can access the collection?</p>
-					<p>Registered users</p>
+					<p class="bold">Who can access the collection?</p>
+					<p class="spacing">Registered users</p>
 
-					<p>How big is the collection?</p>
+					<p class="bold">How big is the collection?</p>
 					<ul class="col-md-2 list">
 						<li>Documents</li>
 						<li>Photographs</li>
