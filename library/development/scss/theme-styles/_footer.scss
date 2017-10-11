@@ -6,6 +6,9 @@
   // margin-top : 40px;
   .footer-links{
     padding : 0;
+    @media (max-width: $screen-sm-min) {
+      text-align: center;
+    }
     li{
       list-style: none;
       padding-bottom : 5px;
@@ -53,25 +56,18 @@
       }
     }
   }
-  .container{
-
-    .row {
-      .art{
-            padding: 0px;
-            padding-left: 85px;
+  .footer-banner{
+    @media (max-width: $screen-sm-min) {
+      text-align: center;
+    }
+    .footer-banner-img{
+      img{
+        margin-right : 10px;
+        @media (max-width: $screen-sm-min) {
+          margin-right : 10px;
+          margin-bottom : 10px;
+        }
       }
-      .pol{
-
-         padding-bottom: 10px;
-         right: 10px;
-      }
-      .image{
-          display: inline-flex;
-          img{
-             padding-right: 10px;
-
-          }
-       }
 
     }
   }

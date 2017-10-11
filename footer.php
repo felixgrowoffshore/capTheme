@@ -31,10 +31,10 @@
 					</ul>
 				</div>
 				<div class="col-md-7">
-					<div class="row">
-						<div class="col-md-5 art"><img src="<?php echo IMAGEPATH .'artscouncil.png'?>"></div>
-						<div class="col-md-4 pol"><img src="<?php echo IMAGEPATH .'policehistory.png'?>"></div>
-						<div class="col-md-3 image">
+					<div class="row footer-banner">
+						<div class="col-md-8 col-sm-8 footer-banner-img"><img src="<?php echo IMAGEPATH .'artscouncil.png'?>"><img src="<?php echo IMAGEPATH .'policehistory.png'?>"></div>
+
+						<div class="col-md-4 col-sm-4">
 							<a href=""><img src="<?php echo IMAGEPATH .'facebook.png'?>"></a>
 							<a href=""><img src="<?php echo IMAGEPATH .'twitter.png'?>"></a>
 							<a href=""><img src="<?php echo IMAGEPATH .'youtube.png'?>"></a>

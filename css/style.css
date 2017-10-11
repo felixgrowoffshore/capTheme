@@ -5888,6 +5888,9 @@ button.close {
   font-size: 14px; }
   .site-footer .footer-links {
     padding: 0; }
+    @media (max-width: 768px) {
+      .site-footer .footer-links {
+        text-align: center; } }
     .site-footer .footer-links li {
       list-style: none;
       padding-bottom: 5px; }
@@ -5921,16 +5924,15 @@ button.close {
             text-decoration: none; }
             .site-footer .footer-links li ul li a:hover {
               color: #3575bb; }
-  .site-footer .container .row .art {
-    padding: 0px;
-    padding-left: 85px; }
-  .site-footer .container .row .pol {
-    padding-bottom: 10px;
-    right: 10px; }
-  .site-footer .container .row .image {
-    display: inline-flex; }
-    .site-footer .container .row .image img {
-      padding-right: 10px; }
+  @media (max-width: 768px) {
+    .site-footer .footer-banner {
+      text-align: center; } }
+  .site-footer .footer-banner .footer-banner-img img {
+    margin-right: 10px; }
+    @media (max-width: 768px) {
+      .site-footer .footer-banner .footer-banner-img img {
+        margin-right: 10px;
+        margin-bottom: 10px; } }
 
 .navbar-nav li {
   border-right: 1px solid #3575bb; }
