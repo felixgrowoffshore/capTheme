@@ -6322,6 +6322,10 @@ img {
     font-weight: bold; }
   .page-template-page-organization .organisation-content .spacing {
     padding-bottom: 15px; }
+  .page-template-page-organization .organisation-content .list {
+    list-style: none;
+    padding: 0px;
+    margin-right: 14px; }
   .page-template-page-organization .organisation-content .org-content {
     padding: 15px; }
   .page-template-page-organization .organisation-content .organisation-image {
