@@ -6232,10 +6232,6 @@ button.close {
 .bg-white {
   background: #fff; }
 
-.rounded-corner {
-  border-radius: 8px;
-  padding: 8px; }
-
 img {
   max-width: 100%;
   height: auto; }
@@ -6312,5 +6308,9 @@ img {
     margin-bottom: 30px; }
   .page-template-page-organization .organisation-content img {
     margin-bottom: 20px; }
-  .page-template-page-organization .organisation-content .bg-white {
+  .page-template-page-organization .organisation-content .org-content {
     padding: 15px; }
+  .page-template-page-organization .organisation-content .organisation-image {
+    margin-top: 45px;
+    background: #fff;
+    padding: 5px; }

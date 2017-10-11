@@ -13,8 +13,18 @@
 		img{
 			margin-bottom : 20px;
 		}
-		.bg-white{
-			padding: $spacing_organisation;
+		// .bg-white{
+		// 	padding: $spacing_organisation;
+		// }
+
+		.org-content{
+			padding : $spacing_organisation;
+		}
+
+		.organisation-image{
+			margin-top : $spacing_organisation * 3;
+			background: #fff;
+			padding : 5px;
 		}
 	}
 }

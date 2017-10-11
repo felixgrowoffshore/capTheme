@@ -10,7 +10,7 @@
 
 		<div class="row">
 			<div class="col-md-8">
-				<div class="bg-white">
+				<div class="bg-white org-content">
 					<?php //the_content(); ?>
 					<p>Organisation: Museum</p>
 					<p>Collection: Police, Court</p>
@@ -48,7 +48,7 @@
 					$map = get_field('images_map');
 					$church = get_field('image_church');
 				?>
-				<div class="bg-white rounded-corner">
+				<div class="bg-white organisation-image">
 					<img src="<?= $map['url'] ?>" alt="<?= $map['alt'] ?>"/>
 					<img src="<?= $church['url'] ?>" alt="<?= $church['alt'] ?>"/>
 				</div>
