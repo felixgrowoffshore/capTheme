@@ -1,70 +1,30 @@
-.content-area{
-	
-	.site-main{
-		.collection-content{
-				    
-			.row{
-				.cap{
-				text-align: right;
-		    	float: right;
-		   	    right: 40px;
-		    	padding: 0px;
-		    	padding-top: 37px;
-		    	p{
-		    		
-		    	}
-			}
-			}
+.page-template-page-organization{
+	$spacing_organisation : 15px;
+	.organisation-content{
+		h1{
+			background: $brand-primary;
+			color : #fff;
+			padding: $spacing_organisation;
+			display: inline-block;
+			margin-bottom : $spacing_organisation * 2;
 		}
-		.container{
-			.row{
-				.infos{
-					padding: 0px;
-					p{
-						text-align: justify;
+		margin-top: -250px;
 
+		img{
+			margin-bottom : 20px;
+		}
+		// .bg-white{
+		// 	padding: $spacing_organisation;
+		// }
 
-						i{
-							color: $brand-primary;
+		.org-content{
+			padding : $spacing_organisation;
+		}
 
-						}
-					}
-				}
-
-				.collection-image{
-					right: 40px;
-    				text-align: right;
-    				margin-bottom: 30px;
-
-				}
-
-				.information{
-						padding: 0px;
-						
-						.bold{
-							font-weight: bold;
-						}
-
-						.spacing{
-							padding-bottom: 20px;
-						}
-
-						.list{
-							list-style: none;
-							padding: 0px;
-						}
-				}
-
-				.image-2{
-					    text-align: right;
-					    right: 40px;
-					    padding-right: 15px;
-				}
-
-
-				}
-				
-			}
+		.organisation-image{
+			margin-top : $spacing_organisation * 3;
+			background: #fff;
+			padding : 5px;
 		}
 	}
-
+}

@@ -16,11 +16,6 @@
 				<div class="row">
 					<div class="col-md-12">
 						<?php
-						// TO DO: ifs
-						$
-						if(has_post_thumbnail()){
-
-						}
 						while ( have_posts() ) : the_post();
 
 							get_template_part( 'template-parts/organisation', 'page' );
@@ -40,6 +35,6 @@
 
 
 <?php
-get_sidebar();
-//get_footer();
+//get_sidebar();
+get_footer();
 ?>
