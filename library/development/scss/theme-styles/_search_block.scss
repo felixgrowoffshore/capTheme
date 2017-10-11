@@ -15,7 +15,7 @@
     a{
       color : #fff;
       font-style: italic;
-      text-decoration: underline;
+      text-decoration: underline !important;
     }
   }
   button{
@@ -67,7 +67,7 @@ $spacer : 30px;
     padding : 20px 0;
     a{
       position: relative;
-      text-decoration: none;
+      text-decoration: underline;
       // Arrow
       .filter-caret{
         position: relative;
