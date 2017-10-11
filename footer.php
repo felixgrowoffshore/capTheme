@@ -19,7 +19,7 @@
 			<div class="row">
 				<div class="col-md-5">
 					<ul class="footer-links">
-						<li>Contact Information</li>
+						<li>Contact information</li>
 						<li>Copyright notice</li>
 						<li>
 							<ul>
