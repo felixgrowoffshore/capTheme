@@ -6229,6 +6229,13 @@ button.close {
 .bg_light_gray {
   background: #e9e9e9; }
 
+.bg-white {
+  background: #fff; }
+
+.rounded-corner {
+  border-radius: 8px;
+  padding: 8px; }
+
 img {
   max-width: 100%;
   height: auto; }
@@ -6295,36 +6302,15 @@ img {
     line-height: 40px;
     font-size: 15px; }
 
-.content-area .site-main .collection-content .row .cap {
-  text-align: right;
-  float: right;
-  right: 40px;
-  padding: 0px;
-  padding-top: 37px; }
-
-.content-area .site-main .container .row .infos {
-  padding: 0px; }
-  .content-area .site-main .container .row .infos p {
-    text-align: justify; }
-    .content-area .site-main .container .row .infos p i {
-      color: #3575bb; }
-
-.content-area .site-main .container .row .collection-image {
-  right: 40px;
-  text-align: right;
-  margin-bottom: 30px; }
-
-.content-area .site-main .container .row .information {
-  padding: 0px; }
-  .content-area .site-main .container .row .information .bold {
-    font-weight: bold; }
-  .content-area .site-main .container .row .information .spacing {
-    padding-bottom: 20px; }
-  .content-area .site-main .container .row .information .list {
-    list-style: none;
-    padding: 0px; }
-
-.content-area .site-main .container .row .image-2 {
-  text-align: right;
-  right: 40px;
-  padding-right: 15px; }
+.page-template-page-organization .organisation-content {
+  margin-top: -250px; }
+  .page-template-page-organization .organisation-content h1 {
+    background: #3575bb;
+    color: #fff;
+    padding: 15px;
+    display: inline-block;
+    margin-bottom: 30px; }
+  .page-template-page-organization .organisation-content img {
+    margin-bottom: 20px; }
+  .page-template-page-organization .organisation-content .bg-white {
+    padding: 15px; }
