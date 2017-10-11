@@ -49,8 +49,8 @@
 					$church = get_field('image_church');
 				?>
 				<div class="bg-white organisation-image">
-					<img src="<?= $map['url'] ?>" alt="<?= $map['alt'] ?>"/>
-					<img src="<?= $church['url'] ?>" alt="<?= $church['alt'] ?>"/>
+					<img src="<?php echo $map['url']; ?>" alt="<?php echo $map['alt']; ?>"/>
+					<img src="<?php echo $church['url']; ?>" alt="<?php echo $church['alt']; ?>"/>
 				</div>
 			</div>
 		</div>
