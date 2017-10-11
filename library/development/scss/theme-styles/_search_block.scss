@@ -2,12 +2,13 @@
   background: #444;
   display: flex;
   justify-content: center;
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
   position: relative;
   flex-direction: column;
   padding: 20px 40px;
   text-align: center;
+  z-index : 99999;
   h2{
     color: #fff;
   }
