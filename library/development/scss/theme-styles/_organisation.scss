@@ -13,9 +13,37 @@
 		img{
 			margin-bottom : 20px;
 		}
-		// .bg-white{
-		// 	padding: $spacing_organisation;
-		// }
+		.bg-white{
+			padding: $spacing_organisation;
+					img{
+						    width: 350px;
+					}
+			}
+
+		p{
+			 @extend .bullet_cap;
+			 span{
+			 	 position: static;
+			 }
+		}
+
+		.fa{
+			color: $brand-primary;
+		}
+
+		.bold{
+			font-weight: bold;
+		}
+
+		.spacing{
+			padding-bottom: 15px;
+		}
+
+		.list{
+			list-style: none;
+			padding: 0px;
+			margin-right: 14px;
+		}
 
 		.org-content{
 			padding : $spacing_organisation;
