@@ -12,6 +12,6 @@
     <div class="form-group">
       <button type="button" class="btn btn-primary btn-lg">Search</button>
     </div>
-    <p class="advance-search"><a href="#">Advanced search</a></p>
+    <p class="advance-search"><a href="WP/search-collections">Advanced search</a></p>
   </form>
 </div>
