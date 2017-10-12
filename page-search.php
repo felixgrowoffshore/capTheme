@@ -28,6 +28,12 @@
 				</div>
 			</div>
 		</main><!-- #main -->
+		<?php
+		$search_flag = (isset($_GET['search']) ? true : false);
+		if($search_flag) :
+			get_template_part( 'template-parts/search', 'result' );
+		endif;
+		?>
 	</div><!-- #primary -->
 
 

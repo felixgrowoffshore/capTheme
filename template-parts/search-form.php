@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-5 col-sm-7">
       <div class="controls">
-        <input type="text" class="form-control" placeholder="Enter search terms here">
+        <input type="text" class="form-control" placeholder="Enter search terms here" name="search">
       </div>
     </div>
     <div class="col-md-6 col-sm-5">
