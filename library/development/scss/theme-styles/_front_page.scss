@@ -44,7 +44,7 @@
   }
 
   h2{
-    @extend .h1;
+    font-size: 30px;
   }
 }
 
@@ -55,4 +55,14 @@
   align-items: center;
   justify-content: center;
   padding : 40px 0;
+
+  .child-btn{
+    margin-top: 30px;
+    // text-align: center;
+
+    .btn{
+      padding: 20px 80px;
+      font-family: $font-family-arvo;
+    }
+  }
 }
