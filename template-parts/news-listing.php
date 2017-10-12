@@ -41,7 +41,7 @@ if($news_events) : ?>
               echo getExcerpt($content,0,200);
               // echo apply_filters('the_content',$content);
               ?>
-              <a href="<?php echo get_permalink($news->ID) ?>">Read More</a>
+              <a href="<?php echo get_permalink($news->ID) ?>">Read more</a>
             </div>
           </div>
         </div>
