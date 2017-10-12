@@ -19,7 +19,6 @@
 							<img src="<?php echo IMAGEPATH.'home_images/map.png'?>" />
 							<div>
 								<p class="lead">Interactive map</p>
-						
 							</div>
 						</div>
 					</div>

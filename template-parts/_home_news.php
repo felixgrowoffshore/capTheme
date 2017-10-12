@@ -1,4 +1,5 @@
 <?php
+ $post_date = get_the_date( 'M Y' ); 
 $q = array(
     'post_type'      => 'news_events',
     'posts_per_page' => 3,
@@ -11,7 +12,7 @@ if($news_events) : ?>
 
 <div class="home-news news_events_home">
   <div class="container">
-    <h2>News and events</h2>
+    <h1>News and events</h1>
     <div class="row">
       <?php foreach ($news_events as $key => $news) { ?>
         <?php if ( has_post_thumbnail() ) :
@@ -30,7 +31,7 @@ if($news_events) : ?>
           <div class="news-info">
             <p class="lead"><?php echo $news->post_title ?></p>
             <p><?php the_author_meta( 'user_nicename' , $author_id ); ?></p>
-            <p><?php echo $news->post_date ?></p>
+            <p><?php echo $post_date ?></p>
           </div>
         </div>
       <?php } ?>
