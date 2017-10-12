@@ -6006,7 +6006,7 @@ button.close {
   .search_block p a {
     color: #fff;
     font-style: italic;
-    text-decoration: none; }
+    text-decoration: underline !important; }
   .search_block button {
     width: 100%;
     border-radius: 0; }
@@ -6042,7 +6042,7 @@ button.close {
   padding: 20px 0; }
   .search-form .advance-search a {
     position: relative;
-    text-decoration: none; }
+    text-decoration: underline; }
     .search-form .advance-search a .filter-caret {
       position: relative;
       display: inline-block;

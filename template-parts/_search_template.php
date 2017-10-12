@@ -1,5 +1,5 @@
 <div class="search_block">
-  <h2>Search collection</h2>
+  <h2>Search collections</h2>
   <form action="">
     <div class="form-group">
       <input type="text" class="form-control" placeholder="Keyword">
