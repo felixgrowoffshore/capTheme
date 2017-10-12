@@ -34,14 +34,27 @@
 					</div>
 					<div class="col-md-8 col-sm-5 col-xs-4 flex-center">
 						<div class="navbar-header">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only">Toggle navigation</span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
 						</div>
-						<div id="navbar" class="navbar-collapse collapse">
+						<div id="navbar" class="navbar-collapse collapse hide_mobile">
+							<?php
+								wp_nav_menu( array(
+									'theme_location' => 'menu-1',
+									'menu_id'        => 'primary-menu',
+									'menu_class'					 => 'nav navbar-nav navbar-right'
+								) );
+							?>
+						</div><!--/.nav-collapse -->
+					</div>
+				</div>
+				<div class="row show_mobile">
+					<div class="col-sm-12">
+						<div id="navbar-mobile" class="navbar-collapse collapse">
 							<?php
 								wp_nav_menu( array(
 									'theme_location' => 'menu-1',

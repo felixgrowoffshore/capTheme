@@ -77,3 +77,16 @@ img{
     font-family: $font-family-arvo;
   }
 }
+
+.show_mobile{
+  display: none !important;
+  @media (max-width: $screen-sm-min) {
+    display: block !important;
+  }
+}
+.hide_mobile{
+  display: block;
+  @media (max-width: $screen-sm-max) {
+    display: none;
+  }
+}

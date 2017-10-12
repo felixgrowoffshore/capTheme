@@ -1,5 +1,6 @@
 .navbar-nav{
   li{
+
     a{
       padding : 0 10px;
       font-family: $font-family-arvo;
@@ -8,8 +9,19 @@
       &:hover{
         background: transparent;
       }
+      @media (max-width: $screen-sm-min) {
+        padding : 10px;
+        &:hover{
+          background: $brand-primary;
+        }
+      }
     }
     border-right : 1px solid $brand-primary;
+    @media (max-width: $screen-sm-min) {
+      border-right : 0;
+      border-bottom : 1px solid $brand-primary;
+      // background: $brand-primary;
+    }
 
     &:last-child{
       border-right : 0px;
