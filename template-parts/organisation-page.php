@@ -1,7 +1,5 @@
 <!--organization-->
-
 <div class="container organisation-content">
-
 		<div class="row">
 			<div class="col-md-12">
 				<h1><?php echo get_the_title(); ?></h1>
@@ -48,6 +46,7 @@
 				<?php
 					$map = get_field('images_map');
 					$church = get_field('image_church');
+					// var_dump($slider_gallery);
 				?>
 				<div class="bg-white organisation-image">
 					<img src="<?php echo $map['url']; ?>" alt="<?php echo $map['alt']; ?>"/>
@@ -55,5 +54,4 @@
 				</div>
 			</div>
 		</div>
-
 </div>

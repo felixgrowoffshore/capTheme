@@ -29,8 +29,9 @@
 					</div>
 				</div>
 			</div>
+
 		</main><!-- #main -->
-		
+			<?php get_template_part( 'template-parts/organisation', 'slider' ); ?>
 	</div><!-- #primary -->
 
 
