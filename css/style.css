@@ -5993,7 +5993,8 @@ button.close {
       font-family: "arvo", "Helvetica Neue", Helvetica, Arial, sans-serif; }
     .news_events_home .news-info p {
       margin-bottom: 0px;
-      font-size: 15px; }
+      font-size: 15px;
+      font-weight: bold; }
   .news_events_home .col {
     padding-right: 30px;
     padding-left: 30px; }
@@ -6557,3 +6558,6 @@ img {
 
 .thumb-slide {
   padding: rem-calc(5); }
+
+.add_space .news-info .bold {
+  font-weight: bold; }

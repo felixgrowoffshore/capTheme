@@ -11,7 +11,7 @@ if($news_events) : ?>
 
 <div class="news_listing">
   <div class="container">
-    <h2>News and events</h2>
+    <h1>News</h1>
 
       <?php foreach ($news_events as $key => $news) { ?>
         <?php if ( has_post_thumbnail($news->ID) ) :
@@ -34,7 +34,7 @@ if($news_events) : ?>
           <div class="col-md-8 col-sm-12 col-lg-9">
             <div class="news-info">
               <h3><?php echo $news->post_title ?></h3>
-              <p><?php echo date('jS M Y',$news->post_date) ?></p>
+              <p class="bold"><?php echo date('jS M Y',$news->post_date) ?></p>
               <?php
               $post_content = get_post($news->ID);
               $content = $post_content->post_content;
