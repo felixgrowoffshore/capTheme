@@ -6005,7 +6005,7 @@ button.close {
   background: #444;
   display: flex;
   justify-content: center;
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
   position: relative;
   flex-direction: column;
