@@ -2,9 +2,18 @@
 
   .images_map_bldg{
     padding : 20px 0;
-
+    // & > div{
+    //   display: flex;
+    //   align-items: center;
+    //   justify-content: center;
+    // }
+    .col{
+      padding-right: 30px;
+      padding-left: 30px;
+    }
     .image_wrap_hover{
       position: relative;
+      margin-bottom: 30px;
       img{
         width : 100%;
       }
@@ -16,6 +25,12 @@
         padding: 20px;
       }
     }
+    .lead-text{
+      font-size: $font-size-base + 2;
+      margin: 0;
+      font-weight: 400;
+      font-family: $font-family-arvo;
+    }
   }
 
   .featured_image{
@@ -26,6 +41,10 @@
     @media (max-width: $screen-sm-min) {
       margin-bottom : 20px;
     }
+  }
+
+  h2{
+    @extend .h1;
   }
 }
 

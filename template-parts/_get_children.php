@@ -12,7 +12,7 @@ if($children) : ?>
   foreach ($children as $key => $page) { ?>
     <div class="row home-child">
       <div class="col-sm-12 col-md-8">
-        <h3><?php echo $page->post_title; ?></h3>
+        <h2><?php echo $page->post_title; ?></h2>
         <p><?php echo $page->post_content; ?></p>
       </div>
     </div>

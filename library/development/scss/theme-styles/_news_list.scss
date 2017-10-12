@@ -12,8 +12,17 @@
   }
 
   .news-info{
+    @extend .bg-white;
+    padding : 30px 20px;
+    .lead{
+      font-size: $font-size-base + 2;
+      margin: 0;
+      font-weight: 400;
+      font-family: $font-family-arvo;
+    }
     p{
-      margin-bottom: 10px;
+      margin-bottom: 0px;
+      font-size: $font-size-base - 2;
     }
   }
   .col {

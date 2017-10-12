@@ -2,6 +2,9 @@
   li{
     a{
       padding : 0 10px;
+      font-family: $font-family-arvo;
+      font-size: 15px;
+      color : #5da0e5;
       &:hover{
         background: transparent;
       }

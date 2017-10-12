@@ -1,5 +1,5 @@
 <?php
- $post_date = get_the_date( 'M Y' ); 
+ $post_date = get_the_date( 'M Y' );
 $q = array(
     'post_type'      => 'news_events',
     'posts_per_page' => 3,
@@ -12,7 +12,7 @@ if($news_events) : ?>
 
 <div class="home-news news_events_home">
   <div class="container">
-    <h1>News and events</h1>
+    <h2>News and events</h2>
     <div class="row">
       <?php foreach ($news_events as $key => $news) { ?>
         <?php if ( has_post_thumbnail() ) :
