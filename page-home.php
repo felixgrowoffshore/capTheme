@@ -27,7 +27,7 @@
 							<img src="<?php echo IMAGEPATH.'home_images/bldg.png'?>" />
 							<div>
 								<p class="lead-text">Membership info:</p>
-								<p><a href="#">minutes</a>, test</p>
+								<p><a href="#">Minutes</a>, <a href="#">Resources</a>, <a href="#">directory</a> and <a href="#">how to join</a></p>
 							</div>
 						</div>
 					</div>
