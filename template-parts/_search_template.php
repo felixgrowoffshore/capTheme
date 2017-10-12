@@ -13,5 +13,5 @@
       <button type="button" class="btn btn-primary btn-lg">Search</button>
     </div>
     <p><a href="#">Advance Search</a></p>
-  </from>
+  </form>
 </div>

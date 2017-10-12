@@ -6077,15 +6077,17 @@ button.close {
       .search-form .advance-search a .filter-caret.open:after {
         transform: rotate(-135deg); }
 
-.results h3 {
-  color: #333333; }
-
-.results ul {
-  margin: 0;
-  padding: 0; }
-  .results ul li {
-    list-style: none;
-    margin-bottom: 10px; }
+.results {
+  padding: 40px 20px 70px; }
+  .results h2 {
+    color: #575757;
+    margin-bottom: 30px; }
+  .results ul {
+    margin: 0;
+    padding: 0; }
+    .results ul li {
+      list-style: none;
+      margin-bottom: 15px; }
 
 .page-template-page-home .images_map_bldg {
   padding: 20px 0; }

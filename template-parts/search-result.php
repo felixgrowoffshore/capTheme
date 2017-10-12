@@ -1,7 +1,7 @@
 <div class="container results">
   <div class="row">
     <div class="col-md-12">
-      <h3>Results</h3>
+      <h2>Results</h2>
     </div>
   </div>
 

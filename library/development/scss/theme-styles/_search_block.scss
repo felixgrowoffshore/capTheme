@@ -104,15 +104,17 @@ $spacer : 30px;
 }
 
 .results{
-  h3{
-    color : $gray-dark;
+  padding : 40px 20px 70px;
+  h2{
+    color : $gray;
+    margin-bottom : 30px;
   }
   ul{
     margin: 0;
     padding: 0;
     li{
       list-style: none;
-      margin-bottom : 10px;
+      margin-bottom : 15px;
       a {
         @extend .bullet_cap;
       }
