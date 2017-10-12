@@ -15,7 +15,7 @@
 					<p>Dates: 1700 - 1950</p>
 					<p class="spacing"><span>CaP </span> CaP Member</p>
 
-					<p>A number of interesting displays of photographs and equipment and show the history of policing. Our resident sergeant is always on duty in the station watching over the prisoners</p>
+					<p>A number of interesting displays of photographs and equipment and show the history of policing. Our resident sergeant is always on duty in the station watching over the prisoners.</p>
 
 					<p> <i class="fa fa-map-marker"></i> 63 Long St, Tetbury GL8 8AA</p>
 					<p> <i class="fa fa-envelope"></i> Contact: John Silvester</p>
