@@ -11,7 +11,7 @@ if($news_events) : ?>
 
 <div class="news_listing">
   <div class="container">
-    <h2>News and events</h2>
+    <h2>News</h2>
 
       <?php foreach ($news_events as $key => $news) { ?>
         <?php if ( has_post_thumbnail($news->ID) ) :
