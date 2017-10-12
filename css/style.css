@@ -6006,7 +6006,7 @@ button.close {
   .search_block p a {
     color: #fff;
     font-style: italic;
-    text-decoration: underline !important; }
+    text-decoration: underline; }
   .search_block button {
     width: 100%;
     border-radius: 0; }
