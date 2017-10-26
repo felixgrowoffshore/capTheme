@@ -32,7 +32,7 @@
 							?>
 						</div><!-- .site-branding -->
 					</div>
-					<div class="col-md-8 col-sm-5 col-xs-4 flex-center">
+					<div class="col-md-8 col-sm-5 col-xs-4 flex-center ">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-mobile" aria-expanded="false" aria-controls="navbar">
 								<span class="sr-only">Toggle navigation</span>

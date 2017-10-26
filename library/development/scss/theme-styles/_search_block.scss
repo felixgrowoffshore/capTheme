@@ -27,7 +27,11 @@
     border-radius: 0;
     -webkit-appearance: none !important;
   }
-
+  .form-group{
+    .nice-select {
+      font-weight: bold;
+    }
+  }
 
 }
 
@@ -54,6 +58,7 @@ $spacer : 30px;
   }
   label{
     font-weight: 200;
+    font-family: $font-family-sans-serif;
   }
   h3{
     color: $gray-dark;
@@ -69,7 +74,9 @@ $spacer : 30px;
     padding : 20px 0;
     a{
       position: relative;
-      text-decoration: underline;
+      text-decoration: none;
+      font-weight: bold;
+      color: #666666;
       // Arrow
       .filter-caret{
         position: relative;

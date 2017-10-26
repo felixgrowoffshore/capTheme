@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <td>Documents</td>
+    <td>11-100</td>
+  </tr>
+  <tr>
+    <td>Photographs</td>
+    <td>101-505</td>
+  </tr>
+  <tr>
+    <td>Objects</td>
+    <td>Unknown</td>
+  </tr>
+</table>

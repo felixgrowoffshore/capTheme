@@ -1,5 +1,13 @@
 .entry-content{
+.resource-title{
+	font-family: $font-family-sans-serif;
+}
 	.resource-content{
+
+		img{
+			width: 270px;
+			height: 260px;
+		}
 
 		ul{
 			font-size: 12px;

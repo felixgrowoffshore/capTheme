@@ -10,10 +10,10 @@
 			<div class="col-md-8">
 				<div class="bg-white org-content">
 					<?php //the_content(); ?>
-					<p>Organisation: Museum</p>
-					<p>Collection: Police, Court</p>
-					<p>Dates: 1700 - 1950</p>
-					<p class="spacing"><span>CaP </span> CaP Member</p>
+					<p class="bold">Organisation: Museum</p>
+					<p class="bold">Collection: Police, Court</p>
+					<p class="bold">Dates: 1700 - 1950</p>
+					<p class="spacing bold"><span>CaP </span> CaP member</p>
 
 					<p>A number of interesting displays of photographs and equipment and show the history of policing. Our resident sergeant is always on duty in the station watching over the prisoners.</p>
 
@@ -29,16 +29,20 @@
 					<p class="spacing">Registered users</p>
 
 					<p class="bold">How big is the collection?</p>
-					<ul class="col-md-2 list">
-						<li>Documents</li>
-						<li>Photographs</li>
-						<li>Objects</li>
-					</ul>
-					<ul class="col-md-2 list">
-						<li>11-100</li>
-						<li>101-505</li>
-						<li>Unknown</li>
-					</ul>
+					<table>
+					  <tr>
+					    <td>Documents</td>
+					    <td>11-100</td>
+					  </tr>
+					  <tr>
+					    <td>Photographs</td>
+					    <td>101-505</td>
+					  </tr>
+					  <tr>
+					    <td>Objects</td>
+					    <td>Unknown</td>
+					  </tr>
+					</table>
 				</div>
 			</div>
 

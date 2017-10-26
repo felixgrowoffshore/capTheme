@@ -21,7 +21,7 @@
 			the_content();
 			?>
 
-      <ul class="nav nav-tabs">
+      <ul class="nav nav-tabs resource-title">
         <li class="active"><a data-toggle="tab" href="#documents">Documents</a></li>
         <li><a data-toggle="tab" href="#links">Links</a></li>
       </ul>

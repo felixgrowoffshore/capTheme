@@ -15,6 +15,7 @@
 		}
 		.bg-white{
 			padding: $spacing_organisation;
+			font-family: $font-family-sans-serif;
 					img{
 						    width: 350px;
 					}
@@ -24,6 +25,7 @@
 			 @extend .bullet_cap;
 			 span{
 			 	 position: static;
+			 	 vertical-align: text-bottom;
 			 }
 		}
 
@@ -39,10 +41,8 @@
 			padding-bottom: 15px;
 		}
 
-		.list{
-			list-style: none;
-			padding: 0px;
-			margin-right: 14px;
+		td{
+			padding-right: 60px;
 		}
 
 		.org-content{

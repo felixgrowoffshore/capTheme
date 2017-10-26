@@ -1,8 +1,22 @@
-.add_space{
+.news_listing{
 
-	.news-info{
-		.bold{
-			font-weight: bold;
+	.container{
+		padding-left: 0px;
+
+		.add_space{
+
+			.news-img{
+				img{
+					width: 200px;
+					height: 200px;
+				}
+			}
+
+			.news-info{
+				.bold{
+					font-weight: bold;
+				}
+			}
 		}
 	}
 }

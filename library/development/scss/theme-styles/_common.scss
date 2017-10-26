@@ -18,7 +18,7 @@ img{
 }
 
 .add_space{
-  padding-bottom : 30px;
+  padding: 10px 0px 10px 0px;
 }
 
 // wysywyg generated
@@ -43,7 +43,12 @@ img{
     color: $gray;
   }
 
+
+.quoute{
+  padding-left: 0px;
+  
   blockquote{
+    padding-left: 0px !important;
     border-left: 0px;
     border-top : 2px solid $brand-primary;
     border-bottom : 2px solid $brand-primary;
@@ -56,9 +61,14 @@ img{
       font-size: 16px;
     }
   }
+    }
   ul,ol{
     padding-left : 20px;
   }
+
+
+
+
 }
 
 .bullet_cap{
@@ -90,3 +100,9 @@ img{
     display: none;
   }
 }
+
+//RESOURECE PAGE
+.resource-title{
+  font-family: $font-family-sans-serif;
+}
+
