@@ -30,7 +30,7 @@ if($news_events) : ?>
               <img src="<?php echo $url; ?>" alt="<?php echo $alt; ?>" />
             </div>
           </div>
-          <?php endif; ?>
+          <?php endif;  ?>
           <div class="col-md-8 col-sm-12 col-lg-9">
             <div class="news-info">
               <h2><?php echo $news->post_title ?></h2>
@@ -41,7 +41,9 @@ if($news_events) : ?>
               echo getExcerpt($content,0,200);
               // echo apply_filters('the_content',$content);
               ?>
+              <div class="listing-links">
               <a href="<?php echo get_permalink($news->ID) ?>">Read more</a>
+              </div>
             </div>
           </div>
         </div>

@@ -26,7 +26,7 @@ if($news_events) : ?>
         ?>
         <div class="col-md-4 col-sm-12 col">
           <div class="news-img">
-            <img src="<?php echo $url; ?>" alt="<?php echo $alt; ?>" />
+            <img src="<?php echo $url; ?>" alt="<?php echo $alt; ?>" width="340" />
           </div>
           <div class="news-info">
             <p class="lead"><?php echo $news->post_title ?></p>

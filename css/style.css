@@ -6002,7 +6002,7 @@ button.close {
     margin-left: -30px;
     margin-right: -30px; }
   .news_events_home .news-img img {
-    width: 200px; }
+    width: 340px; }
   .news_events_home .news-info {
     padding: 30px 20px; }
     .news_events_home .news-info .lead {
@@ -6295,7 +6295,13 @@ img {
   height: auto; }
 
 .add_space {
-  padding: 10px 0px 10px 0px; }
+  margin-bottom: 20px; }
+  .add_space .col-lg-3 {
+    width: 230px; }
+    .add_space .col-lg-3 .news-img {
+      margin-top: 15px; }
+  .add_space .news-info h2 {
+    margin-top: 35px; }
 
 .alignright {
   float: right;
