@@ -18,18 +18,28 @@ img{
 }
 
 .add_space{
-  margin-bottom: 20px;
+      padding-bottom: 45px;
+
   .col-lg-3{
     width: 230px;
-      .news-img{
-            margin-top: 15px;
-      }
+    margin: 0px 0px 200px 0px;
+
+    .news-img{
+          position: absolute;
+    }
   }
   .news-info{
-      h2{
-        margin-top: 35px;
-      }
+    height: 150px;
+    margin: 20px 0px 5px 0px;
+    position: relative;
+    top: -10px;
+    h2{
+      margin-top: 15px;
+      padding-top: 0px;
+
     }
+  }
+  
 }
 
 

@@ -6295,13 +6295,20 @@ img {
   height: auto; }
 
 .add_space {
-  margin-bottom: 20px; }
+  padding-bottom: 45px; }
   .add_space .col-lg-3 {
-    width: 230px; }
+    width: 230px;
+    margin: 0px 0px 200px 0px; }
     .add_space .col-lg-3 .news-img {
-      margin-top: 15px; }
-  .add_space .news-info h2 {
-    margin-top: 35px; }
+      position: absolute; }
+  .add_space .news-info {
+    height: 150px;
+    margin: 20px 0px 5px 0px;
+    position: relative;
+    top: -10px; }
+    .add_space .news-info h2 {
+      margin-top: 15px;
+      padding-top: 0px; }
 
 .alignright {
   float: right;
