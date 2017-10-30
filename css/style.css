@@ -6295,7 +6295,7 @@ img {
   height: auto; }
 
 .add_space {
-  padding-bottom: 45px; }
+  padding-bottom: 50px; }
   .add_space .col-lg-3 {
     width: 240px;
     padding-bottom: 200px; }
@@ -6303,12 +6303,17 @@ img {
       position: absolute; }
   .add_space .news-info {
     height: 150px;
-    margin: 20px 0px 5px 0px;
+    /* margin: 20px 0px 5px 0px;*/
     position: relative;
     top: -10px; }
     .add_space .news-info h2 {
-      margin-top: 15px;
+      margin-top: 30px;
       padding-top: 0px; }
+
+.no-featured-img {
+  padding-bottom: 40px; }
+  .no-featured-img .news-info h2 {
+    margin-top: 8px; }
 
 .alignright {
   float: right;

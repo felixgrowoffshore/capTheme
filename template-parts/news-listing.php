@@ -23,7 +23,7 @@ if($news_events) : ?>
         $author_id=$news->post_author;
 
         ?>
-        <div class="row add_space">
+        <div class="row add_space <?php echo (has_post_thumbnail($news->ID) ? '': 'no-featured-img'); ?>">
           <?php if ( has_post_thumbnail($news->ID) ) : ?>
           <div class="col-md-4 col-sm-12 col-lg-3">
             <div class="news-img">

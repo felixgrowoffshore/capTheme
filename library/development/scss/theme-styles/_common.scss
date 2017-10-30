@@ -18,7 +18,7 @@ img{
 }
 
 .add_space{
-      padding-bottom: 45px;
+      padding-bottom: 50px;
 
   .col-lg-3{
     width: 240px;
@@ -30,16 +30,28 @@ img{
   }
   .news-info{
     height: 150px;
-    margin: 20px 0px 5px 0px;
+   /* margin: 20px 0px 5px 0px;*/
     position: relative;
     top: -10px;
     h2{
-      margin-top: 15px;
+      margin-top: 30px;
       padding-top: 0px;
 
     }
   }
   
+}
+
+.no-featured-img{
+  padding-bottom: 40px;
+
+  .news-info{
+   
+    h2{
+     margin-top: 8px;
+
+    }
+  }
 }
 
 
