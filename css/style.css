@@ -6297,8 +6297,8 @@ img {
 .add_space {
   padding-bottom: 45px; }
   .add_space .col-lg-3 {
-    width: 230px;
-    margin: 0px 0px 200px 0px; }
+    width: 240px;
+    padding-bottom: 200px; }
     .add_space .col-lg-3 .news-img {
       position: absolute; }
   .add_space .news-info {
